@@ -58,6 +58,11 @@
                         <goals>
                             <goal>sign</goal>
                         </goals>
+                        <configuration>
+                            <gpgArguments>
+                                --no-tty
+                            </gpgArguments>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
